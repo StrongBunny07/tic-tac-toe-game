@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #dd8888;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container{
+    padding-top: 0px;
+    height: 600px;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.Game{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 300px;
+    width: 330px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+}
+
+.box{
+    height: 80px;
+    width: 80px;
+    border-radius: 7px;
+    border: 3px solid rgb(111,111,111);
+    box-shadow: 0 0 1px rgb(0,0,0,0.2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #dd8888;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.reset{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #dd8888; 
+    width: 100px;
+    height: 50px;
+    border: 3px solid rgb(111,111,111);
+    border-radius: 7px;
+    box-shadow: 0 0 1px rgb(0,0,0,0.2);
+    transition: all 0.4s ease-in-out;
+}
+
+.reset:hover,.box:hover{
+    color: #ffffff;
+    background: #dd8888;
+}
+
+.body:hover{
+    color: #dd8888;
+    background: #ffffff;
+}
